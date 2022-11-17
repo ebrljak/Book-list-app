@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A37346;
+}
+
+header {
+    color: #FFB955;
+    font-family: 'Inspiration', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+label {
+    color: #FFB955;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.table th {
+    color: #FFB955;
+}
+
+.table {
+    width: 330px;
+    height: 41px;
+    background-color: #E5FDC3;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    border: 2px solid rgba(110, 217, 140, 0.1);
+    border-radius: 7px;
+    font-size: 16px;
+    color: #242020;
+    margin-bottom: 10px;
+    background-color: #E5FDC3;
+}
+
+.form {
+    display: grid;
+    width: 100%;
+}
+
+.form input[type=text] {
+    width: 330px;
+    height: 41px;
+}
+
+.second {
+    display: block;
+}
+
+input[type=submit] {
+    width: 110px;
+    height: 41px;
+    color: #F9F3EB;
+    background-color: #EAA441;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+input::placeholder {
+    padding-left: 8px;
+}
+
+h3 {
+    color: #F9F3EB;
+}
